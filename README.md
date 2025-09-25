@@ -16,3 +16,25 @@ Le projet vise à développer une solution complète de gestion de sauvegarde et
 * **Intégration de tests :** 2crire des tests fonctionnels permettant de s'assurer du bon fonctionnement de l'API, ainsi que la bonne exécution des sauvegardes et restaurations.
 * **Conteneurisation :** Le projet devra être conteneurisé incluant l'API, une base MySQL, une base postgres, et le frontend.
 
+## Prérequis & Setup - Backend Go (Gin) - Frontend React+Vite
+
+## 1. Backend (GO + Gin) - Dépendances utiles
+
+* Web : github.com/gin-gonic/gin
+* CORS : github.com/gin-contrib/cors
+* Config : github.com/spf13/viper
+* Validation : github.com/go-playground/validator/v10
+* Logs : go.uber.org/zap
+* DB : github.com/go-sql-driver/mysql
+* Migrations : scripts SQL versionnés (dossier migrations/mysql/)
+* Auth/JWT : github.com/golang-jwt/jwt/v5
+* Tests : stantard testing
+
+## 2. Frontend (React + Vite + TypeScript)
+
+* Création : Vite (React + TS)
+* Router : React Router
+* State : Zustand
+* UI : Tailwind CSS
+* HTTP : axios + schéma (Zod) pour valider les réponses
+* Tests : Vitest + React Testing Library
