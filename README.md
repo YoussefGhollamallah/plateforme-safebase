@@ -38,3 +38,6 @@ Le projet vise à développer une solution complète de gestion de sauvegarde et
 * UI : Tailwind CSS
 * HTTP : axios + schéma (Zod) pour valider les réponses
 * Tests : Vitest + React Testing Library
+* E2E : Playwright (scénarios UI)
+* Lint/Format : ESLint + @typescript-eslont + Prettier
+
